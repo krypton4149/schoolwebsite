@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="https://kit.fontawesome.com/3458823ace.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+         <a href="project 1.html"><img src="https://t4.ftcdn.net/jpg/02/76/16/83/360_F_276168355_zmVzjAFYyAMi8eN3kN3NA1bVkuTxycan.jpg"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+              <ul>
+                 <li><a href="project 1.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa-solid fa-caret-down" onclick="Showmenu()"></i> 
+     </nav>
+
+     <h1>About Us</h1>
+
+</section>
+
+<!------------about us content-------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's largest<br> school </h1>
+            <p>Almost all of the school’s 1,050 classrooms are full to bursting, with more than 45 students to a class. But parents won’t take no for an answer. They pull in connections from business and politics to get another chair crammed in, says school president Geeta Kingdon. “Sometimes I invite them to come to the school, take them to the classroom and ask them, ‘Do you see any place for your child?’</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="https://g.foolcdn.com/editorial/images/453779/business-meeting_gettyimages-603992138.jpg">
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our school's mission is to learn leadership, the common core, and relationships for life.<br>
+        Our mission is to provide a safe, disciplined learning environment that empowers all students to develop their full potential.<br> 
+        We feel strongly about helping to build leaders that have the ability to succeed.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Piyush yadav</p>
+
+</section>
+
+<!-----------Java script---------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function Showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

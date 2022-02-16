@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website design</title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="https://kit.fontawesome.com/3458823ace.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+    <nav>
+         <a href="project 1.html"><img src="https://t4.ftcdn.net/jpg/02/76/16/83/360_F_276168355_zmVzjAFYyAMi8eN3kN3NA1bVkuTxycan.jpg"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+              <ul>
+                 <li><a href="project 1.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa-solid fa-caret-down" onclick="Showmenu()"></i>     
+            
+     </nav>
+
+     <h1>Our Courses</h1>
+
+</section>
+
+<!------------course -------->
+
+<section class="course">
+    <h1>courses we offers</h1>
+    <p>The school prepares children for ISA and IIT./PMT examinations simultaneously. <br>Expert faculty with a record of producing IITians train the children who take up this option.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Children are tested twice every week on selected Units. 
+
+                These tests are very important as the scores will be added to the.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+        <p>The School has complete facilities for providing IT Education to the Students.
+
+            The Learning Resource Center is the hub of all intellectual and academic activities of the School.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+        <p>Students are encouraged to use and learn IT education.
+
+            The IT Education Labs are equipped with Computers and curriculum based on subjects of IT.</p>
+        </div>
+    </div>
+
+</section>
+
+<!--------------------facilities------>
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>This best co-educational boarding school in Dehradun closely monitors your child’s natural talents, 
+        
+        <br>interests and motivates your kids to follow these over the years through their devoted and expert teaching staff.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60">
+                <h3>World Class Library</h3>
+                <p>One of the important aspects of a truly good education, particularly at the primary & middle school level, is that learning must activity-oriented</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1577471488278-16eec37ffcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80">
+                <h3>Basketball Ground</h3>
+                <p>Basketball is The Asian School’s most popular sport and a major strength area.  students achieve a high level of proficiency in all age groups every year. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://images.unsplash.com/photo-1609534655988-3f5225c13553?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FmZXRlcmlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+                <h3>Cafeteria</h3>
+                <p>The school has an aesthetically designed Multi Cuisine Cafeteria offering a wide variety of International Cuisines, snacks and tuck. The Cafeteria functions, thrice a week.</p>
+            </div>
+        </div>
+
+</section>
+
+<!----------footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our school's mission is to learn leadership, the common core, and relationships for life.<br>
+        Our mission is to provide a safe, disciplined learning environment that empowers all students to develop their full potential.<br> 
+        We feel strongly about helping to build leaders that have the ability to succeed.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Piyush yadav</p>
+
+</section>
+
+<!-----------Java script---------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function Showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
